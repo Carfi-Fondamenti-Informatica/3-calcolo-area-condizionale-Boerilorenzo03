@@ -8,7 +8,7 @@ int main() {
    switch (opzione) {
       case 0:
          result = (a*b) /2;
-            case 1
+      case 1:
                result = a*a;
          break;
       case 2:
@@ -17,7 +17,7 @@ int main() {
       default:
          cout << "opzione non valida";
          break;
-}
+};
    cout << result;
    return 0;
 }
